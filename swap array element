@@ -1,0 +1,49 @@
+//string array//
+public class Main
+{
+	public static void main(String[] args) {
+    String[]arr={"first","second","third","fourth"};
+    System.out.println("Array before swap" + "\n");
+
+    for(String element : arr){
+        System.out.println(element);
+        
+        }
+        
+        String temp = arr[1];
+        arr[1] = arr[2];
+        arr[2] = temp;
+        System.out.println("\n" + "Array after Swap" + "\n");
+        for (String element : arr) {
+            System.out.println(element);
+        }
+    }
+    
+}	
+
+
+//int array//
+
+
+public class Main
+{
+	public static void main(String[] args) {
+    int[]arr={1,2,3,4};
+    System.out.println("Array before swap" + "\n");
+
+    for(int element : arr){
+        System.out.println(element);
+        
+        }
+        int temp = arr[1];
+        arr[1] = arr[2];
+        arr[2] = temp;
+        System.out.println("\n" + "Array after Swap" + "\n");
+        for (int element : arr) {
+            System.out.println(element);
+        }
+    }
+    
+}	
+	
+
