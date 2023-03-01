@@ -1,0 +1,14 @@
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int n1=5, n2=8;
+		System.out.println(" Number Before swapping:"+n1+" "+n2);
+	
+		int temp=n1;
+		n1=n2;
+		n2=temp;
+		System.out.println("Number After swapping:"+n1+" "+n2);
+		
+	}
+}
