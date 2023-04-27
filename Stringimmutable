@@ -1,0 +1,22 @@
+
+
+immutable String if you need a original value and modified value then must coose String.
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    HashMap hm = new HashMap();
+	    String s1 = "snehal";
+	    hm.put(s1, 1);
+	    hm.put("cc",3);
+	    hm.put("tc",7);
+	    hm.put("sc",8);
+	    
+	    String s2=s1.toUpperCase();
+	    Integer i1 = (Integer)hm.get("snehal");
+	    System.out.println(s2);
+		
+		System.out.println(i1);
+	}
+}
